@@ -21,7 +21,7 @@ def init():
     print("SpirentTestCenter system version:\t", {stc.get("system1", "version")})
 
     # Physical topology
-    szChassisIp = "10.108.8.20"
+    szChassisIp = "192.168.0.20"
     port_1_loc = "//%s/%s/%s" % ( szChassisIp, 3, 13)
     port_2_loc = "//%s/%s/%s" % ( szChassisIp, 3, 14)
     # port_3_loc = "//%s/%s/%s" % ( szChassisIp, 3, 15)
